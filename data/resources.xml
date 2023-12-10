@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<resources>
+	<set path = "fonts" />
+	<font file="main.fnt" />	
+
+	<set path = "images\" />
+	<atlas>
+		<image file="board.png"/>			
+
+		<set path = "images\pieces"/>	
+
+		<image id="w_bishop" file="bishop.png" />
+		<image id="b_bishop" file="bishop1.png" />
+		<image id="w_king" file="king.png" />
+		<image id="b_king" file="king1.png" />
+		<image id="w_knight" file="knight.png" />
+		<image id="b_knight" file="knight1.png" />
+		<image id="w_pawn" file="pawn.png" />
+		<image id="b_pawn" file="pawn1.png" />
+		<image id="w_queen" file="queen.png" />
+		<image id="b_queen" file="queen1.png" />
+		<image id="w_rook" file="rook.png" />
+		<image id="b_rook" file="rook1.png" />
+	</atlas>
+</resources>
